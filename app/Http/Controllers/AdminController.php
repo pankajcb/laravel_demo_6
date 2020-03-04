@@ -13,4 +13,7 @@ class AdminController extends Controller
     public function admin_list(){
         return ['admin'=>20]; 
     }
+    public function user_list(){
+        return ['a','b','c'];
+    }
 }
