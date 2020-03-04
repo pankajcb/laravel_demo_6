@@ -9,4 +9,8 @@ class AdminController extends Controller
     public function dashboard(Request $request){
          
     }
+
+    public function admin_list(){
+        return ['admin'=>20]; 
+    }
 }
